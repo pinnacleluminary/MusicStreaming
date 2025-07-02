@@ -8,16 +8,19 @@
 import React, { useEffect } from 'react';
 import { StatusBar, useColorScheme } from 'react-native';
 import RootNavigator from './src/navigation/RootNavigator';
+import Colors from './src/constants/Colors';
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
 
-   useEffect(() => {
-    console.log('App component mounted');
-  }, []);
+  // useEffect(() => {
+  //   console.log('App component mounted');
+  // }, []);
   return (
     <>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
+      <StatusBar
+        barStyle="light-content"
+        backgroundColor={Colors.primary}
+      />
       <RootNavigator />
     </>
   );
