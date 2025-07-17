@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "979258298974",
+    "project_id": "suno-music-portfolio",
+    "storage_bucket": "suno-music-portfolio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979258298974:android:517a7e382fa052d7e9dacf",
+        "android_client_info": {
+          "package_name": "com.rnmusicplayer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC8uxQfcvRpsxS7JKL85_RGOqA4rdfJ0c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
